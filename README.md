@@ -1,4 +1,4 @@
-# gimp-export-spritesheet
+# GIMP Spritesheet Exporter plugin
 GIMP plugin (Python-fu) to export TextureAtlas spritesheet from multiple layers.
 
 ## Howto:
