@@ -99,7 +99,7 @@ register(
   "Export spritesheet",
   "Export spritesheet.",
   "jarnik",
-  "BSD",
+  "MIT",
   "2017",
   "<Image>/File/Export/Export Spritesheet",
   "*",
