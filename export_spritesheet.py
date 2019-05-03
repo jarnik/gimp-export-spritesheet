@@ -20,8 +20,8 @@ def export_spritesheet(image, layer, outputFolder):
 
   spritesheetName = os.path.splitext(image.name)[0]
   atlasImageFilename = "%s.png" % (spritesheetName)
-  outputPath = outputFolder + "\\"+ atlasImageFilename
-  atlasPath = outputFolder + "\\"+ "%s.xml" % (spritesheetName)
+  outputPath = outputFolder + os.sep + atlasImageFilename
+  atlasPath = outputFolder + os.sep + "%s.xml" % (spritesheetName)
 
   atlas = open(atlasPath,"w") 
   atlas.write("<TextureAtlas imagePath='"+atlasImageFilename+"'>\n")  
